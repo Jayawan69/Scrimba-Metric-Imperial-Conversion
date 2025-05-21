@@ -1,0 +1,65 @@
+main{
+  width: 550px;
+  height: 729px;
+  background-color: #1F2937;
+  margin: 0 auto;
+  color:white;
+}
+h1{
+  font-size: 30px;
+}
+#upper-part,#lower-part,.dimensions-section{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+#upper-part{
+  height: 285px;
+  background-color: #6943FF;
+}
+#lower-part{
+  height: 444px;
+}
+
+
+.input-field{
+  font-size: 30px;
+  display: inline;
+  background-color: transparent;
+  border: 1px solid white;
+  display: inline;
+  width: fit-content;
+  min-width: 50px;
+  field-sizing: content;
+  min-width: 0;
+  padding: 0px 15px;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 10px;
+}
+button{
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  margin-top:20px;
+}
+.dimensions-section{
+  background-color: #273549;
+  width: 500px;
+  height: 108.57px;
+  margin: 10px;
+}
+
+.measurement-title{
+  color:#CCC1FF;
+  font-size: 25px;
+  margin: 10px;
+  font-weight: bold;
+}
+.conversion-ratio{
+  margin: 10px;
+}
